@@ -31,4 +31,6 @@ section{
     padding: 15px 25px;
     border-radius: 100%;
     background-image: url(../../html.png);
+    overflow: hidden;
+    background-position: 50% 50%;
 }
