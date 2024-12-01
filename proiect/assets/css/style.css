@@ -1,3 +1,21 @@
+body {
+    background-color: rgba(61, 9, 3, 0.205);
+  }
+
+@font-face {
+    font-family: 'Sevillana';
+    src: url('../front/Sevillana-Regular.eot');
+    src: local('Sevillana'), local('Sevillana-Regular'),
+        url('../front/Sevillana-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../front/Sevillana-Regular.woff2') format('woff2'),
+        url('../front/Sevillana-Regular.woff') format('woff'),
+        url('../front/Sevillana-Regular.ttf') format('truetype'),
+        url('../front/Sevillana-Regular.svg#Sevillana-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .logo{
     width: 100%;
     max-width: 300px;
@@ -32,6 +50,9 @@ nav ul li a{
     font-size: 30px;
     color: white;
     text-decoration: none;
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
 
 }
 /* END HEADER */
@@ -45,6 +66,7 @@ nav ul li a{
     text-align: center;
     color: white;
     top: 40%;
+    padding: 250px;
 
 }
 .content{
